@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headingp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E94B3C"
+            android:paddingBottom="15dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:text="Header" />
+
+        <ImageView
+            android:id="@+id/imagepark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:id="@+id/infop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            tools:text="info" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
